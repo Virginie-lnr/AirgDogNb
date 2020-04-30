@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Project : AirDogNb
 
-Things you may want to cover:
+### Specs
+* Ruby version : 2.5.1
 
-* Ruby version
+### Installation
+To install the project, follow these steps :
+1. Use command `git clone` to clone the project on your environnment
+2. Use command `cd` to go in the project's repository
+3. Use command `bundle install` to install all the gem dependancies
 
-* System dependencies
+Then you can :
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Use command `rails db:migrate` to create the database
+* Use command `rails db:seed` to populate data into the db
